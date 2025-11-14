@@ -1,6 +1,10 @@
+body{
+    background-image: url(Design-sem-nome-21.webp);
+}
+
 .menu{
     overflow: hidden;
-    background-color: rgb(65, 48, 48);
+    background-color: rgb(199, 5, 5);
     }
     
     .menu a{
@@ -13,50 +17,76 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     .menu a:hover{
-    background-color: rgb(124, 124, 124);
-    color: black;
+    background-color: rgb(152, 8, 8);
+    color: rgb(255, 255, 255);
     }
     
     h1{
     text-align: center;
+    color: rgb(255, 255, 255);
     }
    
+h3{
+    font-size:large;
+    color: rgb(255, 255, 255);
     
-    body {
-        background-color: #f2f2f2;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+}
 
-    form {
-        background-color: #fff;
-        padding: 30px 40px;
-        border-radius: 8px;
-        width: 400px;
-    }
+form {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
 
-    legend {
-  
-        color: #333;
-        margin-bottom: 20px;
-        text-align: center;
-    }
+fieldset {
+    border: 2px solid #4A90E2;
+    border-radius: 8px;
+    padding: 20px;
+}
 
-    label {
-        display: block;
-        margin-top: 15px;
-        color: #444;
-        }
+legend {
+    padding: 0 10px;
+    font-weight: bold;
+    color: #4A90E2;
+}
 
+label {
+    display: block;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
 
-    button{ 
-        margin-top: 20px;
-        width: 100%;
-        padding: 12px;
-        background-color: #007bff;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        transition: background-color 0.3s;
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background: #4A90E2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #357ABD;
+}
+h2{
+    color: aliceblue;
 }
