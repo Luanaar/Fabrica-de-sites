@@ -48,7 +48,6 @@ body {
     color: #fff;
 }
 
-/* Caixa do formulário */
 .st-form {
     width: 320px;
     margin: 50px auto;
@@ -58,14 +57,13 @@ body {
     box-shadow: 0 0 15px red;
 }
 
-/* Título */
+
 .st-form h2 {
     text-align: center;
     color: red;
     text-shadow: 0 0 10px red;
 }
 
-/* Inputs */
 .st-form input,
 .st-form textarea {
     width: 100%;
@@ -76,7 +74,6 @@ body {
     color: white;
 }
 
-/* Botão */
 .st-form button {
     width: 100%;
     padding: 10px;
@@ -133,5 +130,5 @@ body {
   text-align: center;  
 }
 .card p{
-color: rgb(228, 210, 20);
+color: rgb(171, 10, 10);
 }
