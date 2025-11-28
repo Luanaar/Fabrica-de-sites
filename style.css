@@ -1,5 +1,9 @@
+.img{
+    text-align: center;
+    
+}
 body{
-    background-image: url(Design-sem-nome-21.webp);
+    
 }
 
 .menu{
@@ -23,19 +27,19 @@ body{
     
     h1{
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(163, 9, 9)
     }
    
 h3{
     font-size:large;
-    color: rgb(255, 255, 255);
+    color: rgb(163, 9, 9);
     
 }
 
 form {
     max-width: 600px;
     margin: auto;
-    background: white;
+    background: rgb(163, 9, 9);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -88,5 +92,11 @@ button:hover {
     background: #357ABD;
 }
 h2{
-    color: aliceblue;
+    color: rgb(163, 9, 9)
 }
+footer{
+color: rgb(0, 0, 0)
+}
+h3{
+
+}                                                                                                      
