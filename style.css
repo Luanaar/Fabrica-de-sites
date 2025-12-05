@@ -25,7 +25,7 @@
     
     h1{
     text-align: center;
-    color: rgb(163, 9, 9);
+    color: rgb(255, 255, 255);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
     }
@@ -39,7 +39,7 @@ p{
     text-align: center;
     width: 1000px;
     margin: 0 auto;
-    color: #a10b0b;
+    color: #ffffff;
 }
 
 body {
